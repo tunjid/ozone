@@ -66,7 +66,7 @@ In addition to shipping the lexicons that define the official Bluesky API, this 
 // build.gradle[.kts]
 
 plugins {
-  id("sh.christian.ozone.generator") version "0.3.3"
+  id("com.tunjid.ozone.generator") version "0.3.3"
 }
 
 dependencies {
