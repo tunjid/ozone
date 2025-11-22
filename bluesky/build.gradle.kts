@@ -8,7 +8,7 @@ plugins {
   id("ozone-multiplatform")
   id("ozone-publish")
   id("co.touchlab.kmmbridge")
-  id("sh.christian.ozone.generator")
+  id("com.tunjid.ozone.generator")
 }
 
 ozone {

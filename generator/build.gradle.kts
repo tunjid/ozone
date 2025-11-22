@@ -34,7 +34,7 @@ dependencies {
 gradlePlugin {
   plugins {
     create("generator") {
-      id = "sh.christian.ozone.generator"
+      id = "com.tunjid.ozone.generator"
       implementationClass = "sh.christian.ozone.api.gradle.LexiconGeneratorPlugin"
     }
   }
@@ -51,5 +51,6 @@ buildConfig {
     buildConfigField("String", "KOTLINX_SERIALIZATION", "\"${libs.versions.serialization.get()}\"")
     buildConfigField("String", "KTOR", "\"${libs.versions.ktor.get()}\"")
     buildConfigField("String", "OZONE", "\"$version\"")
+    buildConfigField("String", "GROUP_ID", "\"$group\"")
   }
 }
